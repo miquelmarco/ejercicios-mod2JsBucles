@@ -35,10 +35,10 @@
 
 // // ejercicio 4
 
-// function numPrimos() {
+// function numPrimos(numero) {
 //     let primo = Number(prompt("Ingrese un número para saber si es primo:"))
 //     while (primo > 0) {
-//         if (primo == 0 || primo == 1 || primo == 4) {
+//         if (primo == 0 || primo == 1 || primo != 2 || primo == 4) {
 //             alert(`${primo} no es numero primo`)
 //         }
 //         for (let i = 2; i < primo / 2; i++) {
@@ -158,7 +158,8 @@
 // // ejercicios 11
 
 // // v.1 Estuve investigando el ... y se puede así junto con Math.max, 
-// //pero como con bucles lo hice de nuevo abajo en v.2
+// //pero como es con bucles lo hice de nuevo abajo en v.2
+
 // let listaMayor = [18, 31, 64, 5, 8 ,12 ,77 ,54, 125, 32];
 // let mayorNumber = Math.max(...listaMayor);
 // console.log(mayorNumber)
@@ -175,23 +176,20 @@
 
 // // ejercicio 12
 
-// let listaMenor = [18, 31, 64, 5, 812 ,12 ,77 ,543, 125, 32];
-// let resultadoMenor = 0
-// for (let i = 0; i < listaMenor.length; i++){
-//     if (listaMenor[i] > i) {
-//         resultadoMenor = listaMenor[i];
-//     }
-// }
-// console.log(resultadoMenor);
+// let listaMayor = [18, 31, 64, 5, 8 ,12 ,77 ,54, 125, 32];
+// let mayorNumber = Math.min(...listaMayor);
+// console.log(mayorNumber)
 
 // ejercicio 13
 
-// do {
 // let concursoPPT = alert(`Compite en piedra, papel o tijera!`)
 // let primerJug = prompt(`Jugador 1 ingresa tu Nombre:`)
 // let segundoJug = prompt(`Jugador 2 ingresa tu Nombre:`)
-// let jugadaPrimerJug = prompt(`${primerJug} ingresa PIEDRA, PAPEL o TIJERA:`)
-// let jugadaSegundoJug = prompt(`${segundoJug} ingresa PIEDRA, PAPEL o TIJERA:`)
+// let jugadaPrimerJug
+// let jugadaSegundoJug
+// do {
+//     jugadaPrimerJug = prompt(`${primerJug} ingresa PIEDRA, PAPEL o TIJERA:`)
+//     jugadaSegundoJug = prompt(`${segundoJug} ingresa PIEDRA, PAPEL o TIJERA:`)
 // if (jugadaPrimerJug.toLowerCase() == `piedra` && jugadaSegundoJug.toLowerCase() == `piedra`) {
 //     alert(`Dos PIEDRAS: Empate!`)
 // }else if (jugadaPrimerJug.toLowerCase() == `piedra` && jugadaSegundoJug.toLowerCase() == `papel`) {
@@ -220,8 +218,10 @@
 // function pyramid1(numPisos) {
 //     for (let i = 0; i < numPisos; i++) {
 //         let piso = '';
-//     for (let j = 0; j < i + 1; j++) {
+//         // console.log(`vuelta n ${i}`)
+//     for (let x = 0; x < i + 1; x++) {
 //         piso = piso + '*';
+//         // console.log(x)
 //     }
 //     console.log(piso)
 //     }
