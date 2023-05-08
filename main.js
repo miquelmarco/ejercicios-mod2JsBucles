@@ -1,5 +1,12 @@
 
-// // ejercicio 1
+// // // Esta página está preparada para ir 
+// // // descomentando uno a uno los ejercicios.
+// // // Puede que algunas variables se repitan si no se usa así
+// // // Además de los 40 prompts al iniciar el live server
+
+
+
+// // // ejercicio 1
 
 // let num = parseInt(prompt(`Ingresa un número`))
 
@@ -7,7 +14,7 @@
 //     console.log(`${num} x ${i} = ${num * i}`);
 // }
 
-// // ejercicio 2
+// // // ejercicio 2
 
 // let numIngres = Number(prompt('Ingrese un número'))
 // const numeros = []
@@ -17,7 +24,7 @@
 // } 
 // console.log(numeros);
 
-// // ejercicios 3
+// // // ejercicios 3
 
 // let ultNum = numeros[numeros.length-1]
 // console.log(ultNum)
@@ -33,7 +40,7 @@
 //     }
 // } while (ultNum != numIngre)
 
-// // ejercicio 4
+// // // ejercicio 4
 
 // function numPrimos(numero) {
 //     let primo = Number(prompt("Ingrese un número para saber si es primo:"))
@@ -53,7 +60,7 @@
 // }
 // numPrimos();
 
-// // ejercicio 5
+// // // ejercicio 5
 
 // let number = Number(prompt(`Ingrese un número para saber sus divisores`))
 // let divisores = []
@@ -64,7 +71,7 @@
 // }
 // console.log(divisores);
 
-// // ejercicio 6
+// // // ejercicio 6
 
 // const array = [1, 2, 3, 4, 5, 6, `javier`, `carlos`, [`octavio`, `esteban`], {name: `juan`, lastname: `herrera`}]
 
@@ -72,7 +79,7 @@
 //     console.log(array[i])
 // }
 
-// // ejercicio 7
+// // // ejercicio 7
 
 // const array2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
@@ -80,7 +87,7 @@
 //     console.log(array2[i] * 2)
 // }
 
-// // ejercicio 8
+// // // ejercicio 8
 
 // const familia = [{
 //     name: `Sandra`,
@@ -114,7 +121,7 @@
 //     el pelo de color ${familia[i].colorPelo} y actualmente es ${familia[i].ocupacion}.`)
 // }
 
-// // ejercicio 9
+// // // ejercicio 9
 
 // const arrayNumber = [1, 4, 6, 7, 8, 35, 657, 43, 22, 66, 554, 2255, 44855];
 // let soyImpar = []
@@ -125,7 +132,7 @@
 // }
 // console.log(soyImpar)
 
-// // ejercicio 10
+// // // ejercicio 10
 
 // let numIngres = Number(prompt('Ingrese un número'))
 // const numeros = []
@@ -155,16 +162,16 @@
 // console.log(par)
 // console.log(resultadoPar)
 
-// // ejercicios 11
+// // // ejercicios 11
 
-// // v.1 Estuve investigando el ... y se puede así junto con Math.max, 
-// //pero como es con bucles lo hice de nuevo abajo en v.2
+// // // v.1 Estuve investigando el ... y se puede así junto con Math.max, 
+// // //pero como es con bucles lo hice de nuevo abajo en v.2
 
 // let listaMayor = [18, 31, 64, 5, 8 ,12 ,77 ,54, 125, 32];
 // let mayorNumber = Math.max(...listaMayor);
 // console.log(mayorNumber)
 
-// // v.2
+// // // v.2
 // let listaMayor = [18, 31, 64, 5, 812 ,12 ,77 ,543, 125, 32];
 // let resultadoMayor = 0
 // for (let i = 0; i < listaMayor.length; i++){
@@ -176,11 +183,11 @@
 
 // // ejercicio 12
 
-// let listaMayor = [18, 31, 64, 5, 8 ,12 ,77 ,54, 125, 32];
-// let mayorNumber = Math.min(...listaMayor);
-// console.log(mayorNumber)
+// let listaMenor = [18, 31, 64, 5, 8 ,12 ,77 ,54, 125, 32];
+// let menorNumber = Math.min(...listaMenor);
+// console.log(menorNumber)
 
-// ejercicio 13
+// // // ejercicio 13
 
 // let concursoPPT = alert(`Compite en piedra, papel o tijera!`)
 // let primerJug = prompt(`Jugador 1 ingresa tu Nombre:`)
@@ -213,7 +220,7 @@
 // }
 // } while (jugadaPrimerJug.toLowerCase() == jugadaSegundoJug.toLowerCase())
 
-// // ejercicios 14
+// // // ejercicios 14
 
 // function pyramid1(numPisos) {
 //     for (let i = 0; i < numPisos; i++) {
@@ -226,23 +233,52 @@
 //     console.log(piso)
 //     }
 // }
-
 // pyramid1(5);
 
-// // ejercicio 15
+// // // ejercicio 15
 
 // function pyramid2(numPisos2) {
 //     for (let i = 0; i < numPisos2; i++) {
-//         let linea = '';
-//         for (let j = 1; j < numPisos2 - i; j++) {
-//             linea = linea + ' ';
+//         let piso = '';
+//         for (let x = 1; x < numPisos2 - i; x++) {
+//             piso = piso + ' ';
 //         }
-//         for (let j = 0; j < i + 1; j++) {
-//             linea = linea + '*';
+//         for (let x = 0; x < i + 1; x++) {
+//             piso = piso + '*';
 //         }
-//         console.log(linea);
+//         console.log(piso);
 //     }
 // }
 // pyramid2(5);
 
-// // ejercicio 16
+// // // ejercicio 16
+
+// // NO DE MI AUTORIA Este ejercicio no lo pude hacer
+// // Este es el resultado pero aún me cuesta entenderlo
+// // Bucles me ha costado más que las task misma
+
+// let arrayAOrdenar = [8, 32, 55, 61, 23, 18, 12, 4, 21, 9, 25];
+// console.log(arrayAOrdenar)
+// console.log(`-----------`)
+
+// function arrayOrdenado(array) {
+//     let n = array.length;
+//     console.log(n)
+//     console.log(`-----------`)
+    
+//     for (let i = 0; i < n - 1; i++) {
+//         for (let x = 0; x < n - i - 1; x++) {
+//             if (array[x] > array[x + 1]) {
+
+//                 console.log(x)
+//                 // Intercambiar x y x+1
+//                 let dato = array[x];
+//                 array[x] = array[x + 1];
+//                 array[x + 1] = dato;
+//             }
+//         }
+//     }
+//     return array;
+// }
+
+// console.log(arrayOrdenado(arrayAOrdenar));
